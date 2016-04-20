@@ -1,0 +1,20 @@
+table {
+  margin: 10px 0px;
+  background: none;
+  border: none;
+  border-collapse: collapse;
+}
+table * {
+  margin: 0px;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 20px;
+  border: 1px solid #eeeeee;
+}
+tbody {
+  background: #ffffff;
+}
+thead {
+  background: #eeeeee;
+}

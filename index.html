@@ -3,8 +3,40 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Poképedia</title>
+		<link rel="stylesheet" href="a/main.css">
 	</head>
 	<body>
-		<h1>Poképedia</h1>
+		<div class="header">
+			<a class="title" href="">Poképedia</a>
+			<span class="subtitle">Yet another Pokémon Reference</span>
+		</div>
+		<div class="body">
+			<div class="links">
+				<a class="link" href="">Pokédex<img src="a/i/pokedex.png"></a>
+				<a class="link" href="">TCG Expansions<img src="a/i/tcg.png"></a>
+				<a class="link" href="">Pokédex</a>
+				<a class="link" href="">Pokédex</a>
+				<a class="link" href="">Pokédex</a>
+				<a class="link" href="">Pokédex</a>
+			</div>
+			<div id="disqus_thread"></div>
+			<script>
+    		/**
+     		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     		*/
+    		var disqus_config = function () {
+        		this.page.url = 'http://chipthrasher.com/pokepedia/';
+        		this.page.identifier = 'Poképedia'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    		};
+    		(function() {
+        		var d = document, s = d.createElement('script');
+        		s.src = 'http://pokepedia.disqus.com/embed.js';
+        		s.setAttribute('data-timestamp', +new Date());
+        		(d.head || d.body).appendChild(s);
+    		})();
+			</script>
+		</div>
+		<script id="dsq-count-scr" src="http://pokepedia.disqus.com/count.js" async></script>
 	</body>
 </html>
